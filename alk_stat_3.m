@@ -30,7 +30,7 @@ for i = 1:N
     d2 = randi(6);
     if d1 ~= d2
         k_B = k_B + 1;
-        if d1 == 6 || d2 == 6 
+        if d1 == 6 | d2 == 6 
             k_AB = k_AB + 1;
         end
     end
